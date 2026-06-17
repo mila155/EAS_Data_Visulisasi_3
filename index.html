@@ -179,7 +179,7 @@
     </div>
     <div class="scr-item" onclick="document.getElementById('complication').scrollIntoView({behavior:'smooth'})">
       <div class="label">Complication</div>
-      <div class="title">55.6% transaksi gagal target — performa tidak merata</div>
+      <div class="title">55.6% transaksi gagal target dan performa tidak merata</div>
     </div>
     <div class="scr-item" onclick="document.getElementById('resolution').scrollIntoView({behavior:'smooth'})">
       <div class="label">Resolution</div>
@@ -189,29 +189,29 @@
 
   <!-- SITUATION SECTION -->
   <div class="section" id="situation">
-    <span class="section-badge badge-s">S — Situation</span>
+    <span class="section-badge badge-s">S - Situation</span>
     <h2>Coffee Chain Tumbuh Tiga Kali Lipat dalam 3 Tahun,<br>tapi Profitabilitas Tidak Pernah Stabil</h2>
     
     <div class="narasi">
       Coffee Chain beroperasi di 20 negara bagian AS dengan 1.061 transaksi yang tercatat 
       dari Oktober 2012 hingga Agustus 2015. Total sales mencapai <strong>202.895</strong> 
-      dengan total profit <strong>64.311</strong> — pertumbuhan yang cukup jelas, walau 
+      dengan total profit <strong>64.311</strong> yang berarti pertumbuhan bisnisnya baik walaupun 
       rata-rata margin per transaksi hanya sekitar <strong>102</strong>. Illinois dan 
       California menjadi dua pilar terkuat, masing-masing menyumbang profit 
-      <strong>7.380</strong> dan <strong>7.340</strong> — jauh di atas New Mexico yang 
+      <strong>7.380</strong> dan <strong>7.340</strong>, jauh di atas New Mexico yang 
       hanya menyumbang <strong>216</strong> sepanjang periode yang sama.
     </div>
 
     <div class="highlight-box">
-      💡 <strong>Yang perlu kamu perhatikan di dashboard ini:</strong> Di chart tren, garis 
-      biru (profit aktual) dan garis abu-abu putus-putus (target) berulang kali bersilangan 
-      dari 2013 ke 2015 — pertumbuhan terjadi, tapi belum stabil. Di bawahnya, peta menunjukkan 
+      💡 <strong>Yang perlu diperhatikan di dashboard ini:</strong> Di chart tren, garis 
+      biru (profit aktual) dan garis abu-abu (target) berulang kali bersilangan 
+      dari tahun 2013 ke 2015 yang berarti pertumbuhan terjadi tetapi belum stabil. Di bawahnya, peta menunjukkan 
       Illinois paling gelap (profit tertinggi), sementara beberapa state lain nyaris putih. 
       Bar chart di sebelahnya memperlihatkan South tertinggal jauh dari tiga market lain 
       dalam total sales, jauh di bawah garis rata-rata.
     </div>
 
-    <!-- EMBED TABLEAU DASHBOARD 1 DI SINI -->
+    <!-- EMBED TABLEAU DASHBOARD 1 -->
     <div class="tableau-wrapper">
       <div class='tableauPlaceholder' id='viz1781690292880' style='position: relative'><noscript><a href='#'><img alt='Situation ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Si&#47;Situation-Coffe&#47;Situation&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Situation-Coffe&#47;Situation' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Si&#47;Situation-Coffe&#47;Situation&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1781690292880');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.maxWidth='1550px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';vizElement.style.maxHeight='887px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.maxWidth='1550px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';vizElement.style.maxHeight='887px';} else { vizElement.style.width='100%';vizElement.style.height='1827px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
     </div>
@@ -219,24 +219,24 @@
 
   <!-- COMPLICATION SECTION -->
   <div class="section" id="complication">
-    <span class="section-badge badge-c">C — Complication</span>
+    <span class="section-badge badge-c">C - Complication</span>
     <h2>Ketidakkonsistenan Profit Berasal dari<br>Perbedaan Kinerja Antar Market dan Produk</h2>
 
     <div class="narasi">
       Angka rata-rata bisa menipu. Secara keseluruhan, <strong>55.6% transaksi gagal mencapai 
       target profit</strong>, dan ketika dipecah per market, tidak satupun yang berhasil 
-      menjaga miss rate di bawah 50% — Central (58.3%) dan South (57.1%) paling buruk, 
+      menjaga miss rate di bawah 50% dengan Central (58.3%) dan South (57.1%) paling buruk, 
       sementara West (51.8%) relatif paling baik walau tetap gagal lebih dari separuh waktu. 
       Polanya makin tajam saat dilihat per kombinasi produk: <strong>Espresso di Central 
       gagal target 91.7%</strong> dari seluruh transaksinya, sementara <strong>Coffee di 
       West dan South masing-masing gagal 88.5% dan 85.4%</strong>. Menariknya, penjualan 
-      yang besar tidak otomatis berarti profit yang besar — beberapa transaksi dengan sales 
+      yang besar tidak otomatis berarti profit yang besar, beberapa transaksi dengan sales 
       tinggi justru profitnya kecil, terlepas dari seberapa besar marketing yang digelontorkan.
     </div>
 
     <div class="highlight-box">
-      💡 <strong>Yang perlu kamu perhatikan di dashboard ini:</strong> Fokus ke heatmap di 
-      kanan atas — cari sel merah paling gelap (Espresso/Central, Coffee/West, Coffee/South). 
+      💡 <strong>Yang perlu diperhatikan di dashboard ini:</strong> Fokus ke heatmap di 
+      kanan atas dan cari sel merah paling gelap (Espresso/Central, Coffee/West, Coffee/South). 
       Lalu lihat scatter plot di kiri bawah: titik-titik dengan sales tinggi tersebar di 
       rentang profit yang lebar, artinya sales besar bukan jaminan profit besar. Terakhir, 
       bar di kanan bawah menunjukkan Coffee dan Espresso konsisten merugi terhadap target 
@@ -244,7 +244,7 @@
       (+2.840 dan +1.906).
     </div>
 
-    <!-- EMBED TABLEAU DASHBOARD 2 DI SINI -->
+    <!-- EMBED TABLEAU DASHBOARD 2 -->
     <div class="tableau-wrapper">
       <div class='tableauPlaceholder' id='viz1781699543579' style='position: relative'><noscript><a href='#'><img alt='complication ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Complication_17816968810750&#47;complication&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Complication_17816968810750&#47;complication' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Complication_17816968810750&#47;complication&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1781699543579');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.maxWidth='1550px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';vizElement.style.maxHeight='887px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.maxWidth='1550px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';vizElement.style.maxHeight='887px';} else { vizElement.style.width='100%';vizElement.style.height='1527px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
     </div>
@@ -252,13 +252,13 @@
 
   <!-- RESOLUTION SECTION -->
   <div class="section" id="resolution">
-    <span class="section-badge badge-r">R — Resolution</span>
+    <span class="section-badge badge-r">R : Resolution</span>
     <h2>Kalibrasi Target dan Fokus Pemulihan<br>di Kombinasi Produk-Market Kritis</h2>
 
     <div class="narasi">
       Data memberikan panduan yang jelas untuk langkah berikutnya. Di level state, 
-      <strong>Missouri, New Mexico, dan New Hampshire</strong> mencatat miss rate di atas 78% 
-      — Missouri sendiri gagal target di 81.5% transaksinya dengan profit rata-rata hanya 
+      <strong>Missouri, New Mexico, dan New Hampshire</strong> mencatat miss rate di atas 78%. 
+      Missouri sendiri gagal target di 81.5% transaksinya dengan profit rata-rata hanya 
       <strong>17.70</strong>, jauh di bawah rata-rata nasional. Di level market, 
       <strong>South terjebak di kuadran paling buruk</strong>: profit rata-ratanya paling 
       rendah (49.97) sekaligus miss rate-nya tinggi (57.1%), menjadikannya kandidat utama 
@@ -270,17 +270,17 @@
     </div>
 
     <div class="highlight-box">
-      💡 <strong>Yang perlu kamu perhatikan di dashboard ini:</strong> Mulai dari scatter 
-      kuadran di kiri atas — posisi South di kuadran kanan bawah (miss rate tinggi, profit 
+      💡 <strong>Yang perlu diperhatikan di dashboard ini:</strong> Mulai dari scatter 
+      kuadran di kiri atas, posisi South di kuadran kanan bawah (miss rate tinggi, profit 
       rendah) adalah sinyal paling jelas. Bar di kanannya mengurutkan state dari yang paling 
       kritis (merah: Missouri, New Mexico, New Hampshire) sampai paling aman (hijau: 
       California, Illinois). Line chart di kiri bawah memperlihatkan Oktober sebagai titik 
       gap terbesar, berlawanan dengan Agustus sebagai bulan terbaik. Terakhir, bar di kanan 
-      bawah menunjukkan dua kombinasi — Espresso/Central dan Coffee/West — sebagai 
+      bawah menunjukkan dua kombinasi yaitu Espresso/Central dan Coffee/West sebagai 
       penyumbang terbesar dari total profit yang hilang.
     </div>
 
-    <!-- EMBED TABLEAU DASHBOARD 3 DI SINI -->
+    <!-- EMBED TABLEAU DASHBOARD 3 -->
     <div class="tableau-wrapper">
       <div class='tableauPlaceholder' id='viz1781700669689' style='position: relative'><noscript><a href='#'><img alt='Kalibrasi Target dan Fokus Pemulihan di Kombinasi Produk-Market Kritis ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Re&#47;Resolution-Coffee&#47;KalibrasiTargetdanFokusPemulihandiKombinasiProduk-MarketKritis&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Resolution-Coffee&#47;KalibrasiTargetdanFokusPemulihandiKombinasiProduk-MarketKritis' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Re&#47;Resolution-Coffee&#47;KalibrasiTargetdanFokusPemulihandiKombinasiProduk-MarketKritis&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1781700669689');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='1627px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
     </div>
@@ -292,13 +292,13 @@
     <div class="insight-grid">
       <div class="insight-card">
         <div class="number">55.6%</div>
-        <p>Transaksi gagal target profit secara keseluruhan. Masalah ini sistemik — bukan 
+        <p>Transaksi gagal target profit secara keseluruhan. Masalah ini sistemik bukan 
         hanya soal performa tim, tapi juga soal penetapan target yang tidak berbasis data 
         historis yang akurat.</p>
       </div>
       <div class="insight-card">
         <div class="number">91.7%</div>
-        <p>Espresso di market Central gagal target — kombinasi paling parah. Rekomendasi: 
+        <p>Espresso di market Central gagal target, kombinasi yang paling parah. Rekomendasi: 
         turunkan target Espresso Central sebesar 20–25% atau evaluasi strategi pricing-nya.</p>
       </div>
       <div class="insight-card">
@@ -319,8 +319,8 @@
   <!-- FOOTER -->
   <footer>
     <p>Data: Coffee Chain Sales Dataset (2012–2015) | 
-    Visualisasi: <a href="LINK_TABLEAU_PUBLIC_KAMU" target="_blank">Tableau Public</a> | 
-    Source: <a href="LINK_GITHUB_KAMU" target="_blank">GitHub</a></p>
+    Source: <a href="https://www.kaggle.com/datasets/amruthayenikonda/coffee-chain-sales-dataset" target="_blank">Dataset Kaggle</a></p> | 
+    <a href="https://github.com/mila155" target="_blank">Github</a></p>
   </footer>
 
 </body>
